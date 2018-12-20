@@ -1,3 +1,33 @@
+@font-face {
+    font-family: lucida-grande;
+    src: url(../assets/fonts/LucidaGrande.ttf);
+}
+@font-face {
+    font-family: lucida-grande-bold;
+    src: url(../assets/fonts/LucidaGrandeBold.ttf);
+}
+@font-face {
+    font-family: noe-bold;
+    src: url(../assets/fonts/noe-display-bold.otf);
+}
+@font-face {
+    font-family: segoi-ui;
+    src: url(../assets/fonts/SegoeUI.ttf);
+}
+@font-face {
+  font-family: vegur-bold;
+  src: url(../assets/fonts/vegur-bold.otf);
+}
+@font-face {
+  font-family: "GeorgiaPro-CondSemiBold";
+  src: font-url('georgia-pro-cond-cufonfonts/GeorgiaPro-CondSemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+p,ul{
+  font-size: 21px;
+  font-weight:normal;
+}
 .row{
   width: 100%;
 }
@@ -15,6 +45,11 @@
 .company-name{
   font-weight: bold;
 }
+.company-logo{
+  width: 70px;
+  height: 70px;
+  margin-top:10px;
+}
 .content{
   padding-top: 70px;
 }
@@ -26,6 +61,7 @@
   position: relative;
   top: 30%;
   font-size: 50px;
+  font-family: "Times New Roman";
 }
 .admin-image{
   width: 70px;
@@ -43,8 +79,43 @@
 .admin-name a{
   text-decoration: none;
 }
+.follow-button{
+  background-color:transparent;
+  outline: 0!important;
+  border-radius: 7px;
+  margin-left: 10px;
+}
 #main-image{
   width: 100%;
   position: relative;
   top: 20%;
+}
+#main-content {
+  font-size: 21px;
+  font-family: "Times New Roman";
+}
+.big-admin-image{
+  width: 150px;
+  height: 150px;
+  top: 0;
+}
+.content-desc{
+  max-width: 800px;
+  margin: auto;
+}
+.author-wrapper{
+  display: flex;
+  .author-profile{
+    margin-right: 15px;
+  }
+}
+.sub-title{
+  font-weight: bold;
+}
+.big-word{
+  font-size: 66px;
+  height: 66px;
+  padding-right: 7px;
+  margin-top: -15px;
+  float: left;
 }
