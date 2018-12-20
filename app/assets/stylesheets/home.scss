@@ -1,0 +1,50 @@
+.row{
+  width: 100%;
+}
+.navbar{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: auto;
+  position: fixed;
+  z-index: 9;
+  background-color: white;
+  border-radius: 0;
+  height: 70px;
+  box-shadow: 1px 1px 1px 3px #f3f3f3;
+}
+.company-name{
+  font-weight: bold;
+}
+.content{
+  padding-top: 70px;
+}
+#highlight{
+  margin-bottom: 125px;
+}
+#article-title{
+  font-weight:bold;
+  position: relative;
+  top: 30%;
+  font-size: 50px;
+}
+.admin-image{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 3px #f3f3f3;
+  position: relative;
+  top: 40%;
+}
+.admin-name{
+  margin-top: 45px;
+  color: black;
+}
+.admin-name a{
+  text-decoration: none;
+}
+#main-image{
+  width: 100%;
+  position: relative;
+  top: 20%;
+}
