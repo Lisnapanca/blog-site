@@ -1,0 +1,285 @@
+.navbar
+  .container
+    .row
+      .col-md-6
+        h3.company-name
+          = link_to image_tag('41studio-logo.jpg'), root_path, class: "company-logo"
+      .col-md-6
+        span.genericon.genericon-search
+.container      
+  .content
+    .row#highlight
+      .col-md-6
+        h1#article-title
+          | How to succeed as a freelance developer
+          .author-wrapper
+            .author-profile
+              = image_tag "allen.jpg", class: "admin-image"
+            .author-desc
+              a[href="_blank"]
+                h6.admin-name
+                  | Allen Aprilia Begista
+                  button.follow-button
+                   | Follow
+              span
+                |18 December, 2018
+      .col-md-6
+        = image_tag "blog.jpg", id: "main-image"
+    .row#main-content
+      .col-md-2
+        svg.svgIcon-use viewbox=("0 0 33 33") 
+          path d=("M28.86 17.342l-3.64-6.402c-.292-.433-.712-.729-1.163-.8a1.124 1.124 0 0 0-.889.213c-.63.488-.742 1.181-.33 2.061l1.222 2.587 1.4 2.46c2.234 4.085 1.511 8.007-2.145 11.663-.26.26-.526.49-.797.707 1.42-.084 2.881-.683 4.292-2.094 3.822-3.823 3.565-7.876 2.05-10.395zm-6.252 11.075c3.352-3.35 3.998-6.775 1.978-10.469l-3.378-5.945c-.292-.432-.712-.728-1.163-.8a1.122 1.122 0 0 0-.89.213c-.63.49-.742 1.182-.33 2.061l1.72 3.638a.502.502 0 0 1-.806.568l-8.91-8.91a1.335 1.335 0 0 0-1.887 1.886l5.292 5.292a.5.5 0 0 1-.707.707l-5.292-5.292-1.492-1.492c-.503-.503-1.382-.505-1.887 0a1.337 1.337 0 0 0 0 1.886l1.493 1.492 5.292 5.292a.499.499 0 0 1-.353.854.5.5 0 0 1-.354-.147L5.642 13.96a1.338 1.338 0 0 0-1.887 0 1.338 1.338 0 0 0 0 1.887l2.23 2.228 3.322 3.324a.499.499 0 0 1-.353.853.502.502 0 0 1-.354-.146l-3.323-3.324a1.333 1.333 0 0 0-1.886 0 1.325 1.325 0 0 0-.39.943c0 .356.138.691.39.943l6.396 6.397c3.528 3.53 8.86 5.313 12.821 1.353zM12.73 9.26l5.68 5.68-.49-1.037c-.518-1.107-.426-2.13.224-2.89l-3.303-3.304a1.337 1.337 0 0 0-1.886 0 1.326 1.326 0 0 0-.39.944c0 .217.067.42.165.607zm14.787 19.184c-1.599 1.6-3.417 2.392-5.353 2.392-.349 0-.7-.03-1.058-.082a7.922 7.922 0 0 1-3.667.887c-3.049 0-6.115-1.626-8.359-3.87l-6.396-6.397A2.315 2.315 0 0 1 2 19.724a2.327 2.327 0 0 1 1.923-2.296l-.875-.875a2.339 2.339 0 0 1 0-3.3 2.33 2.33 0 0 1 1.24-.647l-.139-.139c-.91-.91-.91-2.39 0-3.3.884-.884 2.421-.882 3.301 0l.138.14a2.335 2.335 0 0 1 3.948-1.24l.093.092c.091-.423.291-.828.62-1.157a2.336 2.336 0 0 1 3.3 0l3.384 3.386a2.167 2.167 0 0 1 1.271-.173c.534.086 1.03.354 1.441.765.11-.549.415-1.034.911-1.418a2.12 2.12 0 0 1 1.661-.41c.727.117 1.385.565 1.853 1.262l3.652 6.423c1.704 2.832 2.025 7.377-2.205 11.607zM13.217.484l-1.917.882 2.37 2.837-.454-3.719zm8.487.877l-1.928-.86-.44 3.697 2.368-2.837zM16.5 3.293L15.478-.005h2.044L16.5 3.293z") fill-rule="evenodd" 
+          br
+          svg.svgIcon-use
+            path d=("M19.385 4h-9.77A2.623 2.623 0 0 0 7 6.615V23.01a1.022 1.022 0 0 0 1.595.847l5.905-4.004 5.905 4.004A1.022 1.022 0 0 0 22 23.011V6.62A2.625 2.625 0 0 0 19.385 4zM21 23l-5.91-3.955-.148-.107a.751.751 0 0 0-.884 0l-.147.107L8 23V6.615C8 5.725 8.725 5 9.615 5h9.77C20.275 5 21 5.725 21 6.615V23z") fill-rule="evenodd" 
+          br
+          svg.svgIcon-use viewbox=("0 0 29 29")
+            path d=("M22.053 7.54a4.474 4.474 0 0 0-3.31-1.455 4.526 4.526 0 0 0-4.526 4.524c0 .35.04.7.082 1.05a12.9 12.9 0 0 1-9.3-4.77c-.39.69-.61 1.46-.65 2.26.03 1.6.83 2.99 2.02 3.79-.72-.02-1.41-.22-2.02-.57-.01.02-.01.04 0 .08-.01 2.17 1.55 4 3.63 4.44-.39.08-.79.13-1.21.16-.28-.03-.57-.05-.81-.08.54 1.77 2.21 3.08 4.2 3.15a9.564 9.564 0 0 1-5.66 1.94c-.34-.03-.7-.06-1.05-.08 2 1.27 4.38 2.02 6.94 2.02 8.31 0 12.86-6.9 12.84-12.85.02-.24.01-.43 0-.65.89-.62 1.65-1.42 2.26-2.34-.82.38-1.69.62-2.59.72a4.37 4.37 0 0 0 1.94-2.51c-.84.53-1.81.9-2.83 1.13z") 
+            br
+            svg.svgIcon-use
+              path d=("M23.209 5H5.792A.792.792 0 0 0 5 5.791V23.21c0 .437.354.791.792.791h9.303v-7.125H12.72v-2.968h2.375v-2.375c0-2.455 1.553-3.662 3.741-3.662 1.049 0 1.95.078 2.213.112v2.565h-1.517c-1.192 0-1.469.567-1.469 1.397v1.963h2.969l-.594 2.968h-2.375L18.11 24h5.099a.791.791 0 0 0 .791-.791V5.79a.791.791 0 0 0-.791-.79") 
+
+
+
+      .col-md-8
+        .content-desc
+        p
+          span.big-word> F
+          | reelancing will change your life. Working as a freelance programmer offers many benefits. While some of the positives come from the flexible nature of the work, still others relate to programming specifically.
+          br
+            | Here are major benefits when working freelance:
+          br
+            ul
+              li 
+                | A better work-life balance: You can have breakfast with your partner again!
+              li 
+                | Being your own boss: Being a freelance Web Developer means you can work all morning (or all night for that matter)…
+              li 
+                | Freedom to choose your working hours / clients / rate of pay: Say a polite ‘no thank you’ to that miserable client and a ‘no thank you’ to his criminally low budget too.
+              li 
+                | The chance to work on more interesting projects: No more monotony, each month bringing a variety of work, clients and opportunities.
+          br
+            ol
+              li.sub-title
+                |  Begin with Full-Time Work
+                br
+                p 
+                  | This can be a bit of a challenge if you have no prior experience and if you are primarily self-taught. Without credentials from a school and with no samples of work that have actually been paid for, you are competing with others who already have a “leg-up.” One of the things you can do is contribute to open-source projects that are out there, such as those on GitHub. You can build a technical portfolio from such projects and demonstrate you skills to potential employers.
+                p
+                  | Here are a number of important skills you can pick up once you are employed by a company:
+                br
+                  ul
+                    li
+                      | You will learn how the business side of a development company operates
+                    li
+                      | You will have time to enhance your skills
+                    li
+                      | You will learn how to work with clients of all “stripes.”
+                    li
+                      | You’ll have the chance to build up some savings which you will need when making the move to freelancing.
+              br
+              li.sub-title
+                | Start Building Your Portfolio
+                p
+                  | Begin a web-based portfolio as soon as you are hired, and put every project in there. These can be categorized with hyperlinks. At the same time that you are developing that portfolio, begin to work on your resume. Here you will provide the details of each of the projects in your portfolio, explaining the client requirements, the scope of the project and its ultimate success. Here you will have the link to the specific project.
+                br
+                p
+                  | In the end, you will most likely weed out projects and choose which ones you will actually discuss in your resume or CV, but right now, provide detailed descriptions and process explanations for them all. As a web developer, there may be other related projects that your employer will assign. Gladly assume them and, as you get each project done, add it to your portfolio and resume too. It’s good to show versatility. Again, the time to clean and polish both of these things will come later when you get ready to make your move. Right now they are working rough drafts.
+              br
+              li.sub-title
+                | Find Your Niche
+                p
+                  | Freelance developers who do really well have established themselves as the “go-to” people for very specific things – sort of like specialists in medicine or law. There are “Jack-of-all Trades” developers who will do a good job on most anything, but then there are the specialists who do a good job on most anything, but a really stunning job in a few key areas. To become a specialist, consider taking up a new language, or keep upgrading your skill set on a couple of those you already know. Take online courses and earn certificates; pick up skill in complementary areas such as UX or UI design. To be able to design and develop together makes you far more valuable as a freelancer – a one-stop shop so to speak for someone in need of a website from scratch.
+                br
+                p
+                 | As a niche expert with complementary skills sets, you will have a much easier time marketing your personal brand. If you are not certain what programming niche(s) you should choose, these are pretty hot right not:
+                br
+                ul
+                  li
+                    | Ruby on Rails: This is the preferred open source framework for startups all over the globe right now.
+                  li
+                    | Swift: This is Apple’s language for Cocoa and Cocoa Touch. It is specifically structured for iOS development – hot, hot, hot.
+                  li
+                    | Node.js: A platform for building fast and scalable applications. A lot of developing experts believe that it will become a big competitor to Ruby on Rails pretty quickly.
+              br
+              li.sub-title
+                | Network
+                p
+                  |You should begin to network from the day you land your feet into your job. There are so many developer communities out there, all of which have meet-ups, either on or offline. Begin with your colleagues at your job. Have conversations about things beyond the scope of your current project(s) – the more you learn about project variety and the business operations, the better.   
+                br
+                p
+                  | It goes without saying that you will also need to have a LinkedIn profile and join groups on that site. Participate in discussions in all niche and niche-related groups, so you’re your name becomes known. Show your expertise through those conversations. 
+                br
+                p
+                  | Get on Instagram and display carousels of projects in various stages and, of course, the final product. Start showing some of your projects on your Facebook Page. Follow other freelance developers and get involved in conversations with them. Check out development blogs and become a contributor.
+                br
+                p
+                  | All of these activities will spread your personal brand, and you can do this even before you strike out on your own. You will probably have a “conflict of interest” clause where you work, so you cannot take on side projects while you are employed, but having the contacts in advance will make getting gigs later much easier.
+              br
+              li.sub-title
+                | The Day Comes
+                p
+                  | You will have a lot to do when you launch. Set up your website with your portfolio (which should be well-organized if you have kept up with it). Go full-steam ahead on your marketing.
+                br
+                ul
+                  li
+                    | Let all of your contacts know that you are open for business. Ask for referrals.
+                  li
+                    | Ask colleagues you know for overflow work if they have any.
+                  li
+                    | Get your profile on as many freelance clearinghouses as possible.
+                br
+                p
+                 | Beyond your self-promotion which is almost a full-time job in the beginning, you will have all of the other aspects of running a business. If you have prepared yourself, you will be ready to assume budgeting, marketing, invoices, and tax requirements. There are great apps out there to do a lot of this for you, so consider outsourcing some of your paperwork. Just don’t ignore the day-to-day operations and then have to play catch-up after a large backlog has developed.
+                br
+                p
+                  | Becoming a freelancer is a big leap. It will take superior organizational skills and a willingness to put in far longer hours than you did working for someone else. If you have the passion for this; if you have planned in advance; if you can treat your freelancing as a business, then you have the recipe for success.
+              br
+              li.sub-title
+                | Use a Contract on every project
+                br
+                p
+                  | If you’re just beginning to learn how to freelance, let me help you avoid making one of the most common mistakes I see.
+                br
+                p
+                  | Use a contract for EVERY client project. But, don’t get bogged down in finding the perfect contract.
+                br
+                p
+                  | Starting off with a template is okay, as long as you remember to keep making improvements along the way.
+                br
+                p
+                  | Too many freelancers get caught up in the details of contracts, and it’s ultimately wasting a lot of time that should be spent making money.
+                br
+                p
+                  | All you need for the time being is a general agreement that covers some basic, yet important terms that both you and the client need to agree upon.
+                br
+                p
+                  | In its simplest form, your contract terms should cover:
+                br
+                  ul
+                    li
+                      | The work that you produce is original and not plagiarized.
+                    li
+                      | The client’s proprietary information stays confidential.
+                    li
+                      | Your payments terms. (How much you’ll get paid and when during the process.)
+                    li
+                      | That once the client accepts the completed work, they accept full responsibility for any further processes in which the work is used (e.g. printing, putting the logo to use, etc.)
+                    li
+                      | You and the client have the right to terminate the services, and what that entails for you both.
+                    br
+                  p
+                    | Having some basic terms in place for every project will help protect you, but more importantly, will help inform the client of how you work.
+              br
+              li.sub-title
+                |  Be transparent with your clients
+                br
+                p
+                  | As a freelancer, your business is just you running it inside out. That’s something you must be proud of, so don’t hide behind a facade:
+                br
+                p
+                  | Be the name and face of your business, because your business is you.
+                br
+                p
+                  | From a client’s perspective, if I were to hire you to provide a service, I would want to know who I’m giving my money to. So be sure to inject who you are into your brand. You can shape that however you’d like, but the key is to be personable. Also, when a client is interested in working with you, be transparent in conversing with them.
+                br
+                p
+                  | If you only take on freelance opportunities part time, let them know. Otherwise, you could run into a situation where expectations are misaligned and conflicts pop up as a result. If they’re going to hire you, explain to them how your process works.
+                br
+                p
+                  | Show your interest in them and their business, then break down what they can expect by working with you step-by-step.
+                br
+                p
+                  | Being transparent isn’t a weakness, it helps build trust and confidence, and can be what seals the deal in a proposed project.
+              br
+              li.sub-title
+                | Communication & PR
+                br
+                p
+                  | Being a freelance developer means marketing yourself as a professional to sell your services. You must be skilled in public relations and a good salesman if you want to succeed as a mobile app freelance programmer. You are no longer selling a product or service from a particular company but selling your own services. This is why communication and personal branding are two of the most essential components towards building confidence in potential customers and getting app projects.
+          .row.sosmed-part
+            .col-md-6
+              svg.svgIcon-use viewbox=("0 0 33 33") 
+                path d=("M28.86 17.342l-3.64-6.402c-.292-.433-.712-.729-1.163-.8a1.124 1.124 0 0 0-.889.213c-.63.488-.742 1.181-.33 2.061l1.222 2.587 1.4 2.46c2.234 4.085 1.511 8.007-2.145 11.663-.26.26-.526.49-.797.707 1.42-.084 2.881-.683 4.292-2.094 3.822-3.823 3.565-7.876 2.05-10.395zm-6.252 11.075c3.352-3.35 3.998-6.775 1.978-10.469l-3.378-5.945c-.292-.432-.712-.728-1.163-.8a1.122 1.122 0 0 0-.89.213c-.63.49-.742 1.182-.33 2.061l1.72 3.638a.502.502 0 0 1-.806.568l-8.91-8.91a1.335 1.335 0 0 0-1.887 1.886l5.292 5.292a.5.5 0 0 1-.707.707l-5.292-5.292-1.492-1.492c-.503-.503-1.382-.505-1.887 0a1.337 1.337 0 0 0 0 1.886l1.493 1.492 5.292 5.292a.499.499 0 0 1-.353.854.5.5 0 0 1-.354-.147L5.642 13.96a1.338 1.338 0 0 0-1.887 0 1.338 1.338 0 0 0 0 1.887l2.23 2.228 3.322 3.324a.499.499 0 0 1-.353.853.502.502 0 0 1-.354-.146l-3.323-3.324a1.333 1.333 0 0 0-1.886 0 1.325 1.325 0 0 0-.39.943c0 .356.138.691.39.943l6.396 6.397c3.528 3.53 8.86 5.313 12.821 1.353zM12.73 9.26l5.68 5.68-.49-1.037c-.518-1.107-.426-2.13.224-2.89l-3.303-3.304a1.337 1.337 0 0 0-1.886 0 1.326 1.326 0 0 0-.39.944c0 .217.067.42.165.607zm14.787 19.184c-1.599 1.6-3.417 2.392-5.353 2.392-.349 0-.7-.03-1.058-.082a7.922 7.922 0 0 1-3.667.887c-3.049 0-6.115-1.626-8.359-3.87l-6.396-6.397A2.315 2.315 0 0 1 2 19.724a2.327 2.327 0 0 1 1.923-2.296l-.875-.875a2.339 2.339 0 0 1 0-3.3 2.33 2.33 0 0 1 1.24-.647l-.139-.139c-.91-.91-.91-2.39 0-3.3.884-.884 2.421-.882 3.301 0l.138.14a2.335 2.335 0 0 1 3.948-1.24l.093.092c.091-.423.291-.828.62-1.157a2.336 2.336 0 0 1 3.3 0l3.384 3.386a2.167 2.167 0 0 1 1.271-.173c.534.086 1.03.354 1.441.765.11-.549.415-1.034.911-1.418a2.12 2.12 0 0 1 1.661-.41c.727.117 1.385.565 1.853 1.262l3.652 6.423c1.704 2.832 2.025 7.377-2.205 11.607zM13.217.484l-1.917.882 2.37 2.837-.454-3.719zm8.487.877l-1.928-.86-.44 3.697 2.368-2.837zM16.5 3.293L15.478-.005h2.044L16.5 3.293z") fill-rule="evenodd"
+            .col-md-6
+              .sosmed-logo
+                svg.svgIcon-use viewbox=("0 0 29 29")
+                  path d=("M22.053 7.54a4.474 4.474 0 0 0-3.31-1.455 4.526 4.526 0 0 0-4.526 4.524c0 .35.04.7.082 1.05a12.9 12.9 0 0 1-9.3-4.77c-.39.69-.61 1.46-.65 2.26.03 1.6.83 2.99 2.02 3.79-.72-.02-1.41-.22-2.02-.57-.01.02-.01.04 0 .08-.01 2.17 1.55 4 3.63 4.44-.39.08-.79.13-1.21.16-.28-.03-.57-.05-.81-.08.54 1.77 2.21 3.08 4.2 3.15a9.564 9.564 0 0 1-5.66 1.94c-.34-.03-.7-.06-1.05-.08 2 1.27 4.38 2.02 6.94 2.02 8.31 0 12.86-6.9 12.84-12.85.02-.24.01-.43 0-.65.89-.62 1.65-1.42 2.26-2.34-.82.38-1.69.62-2.59.72a4.37 4.37 0 0 0 1.94-2.51c-.84.53-1.81.9-2.83 1.13z")
+                svg.svgIcon-use
+                  path d=("M23.209 5H5.792A.792.792 0 0 0 5 5.791V23.21c0 .437.354.791.792.791h9.303v-7.125H12.72v-2.968h2.375v-2.375c0-2.455 1.553-3.662 3.741-3.662 1.049 0 1.95.078 2.213.112v2.565h-1.517c-1.192 0-1.469.567-1.469 1.397v1.963h2.969l-.594 2.968h-2.375L18.11 24h5.099a.791.791 0 0 0 .791-.791V5.79a.791.791 0 0 0-.791-.79") 
+                svg.svgIcon-use
+                  path d=("M19.385 4h-9.77A2.623 2.623 0 0 0 7 6.615V23.01a1.022 1.022 0 0 0 1.595.847l5.905-4.004 5.905 4.004A1.022 1.022 0 0 0 22 23.011V6.62A2.625 2.625 0 0 0 19.385 4zM21 23l-5.91-3.955-.148-.107a.751.751 0 0 0-.884 0l-.147.107L8 23V6.615C8 5.725 8.725 5 9.615 5h9.77C20.275 5 21 5.725 21 6.615V23z") fill-rule="evenodd" 
+                svg.svgIcon-use height="25" viewbox=("-480.5 272.5 21 21") width="25" 
+                  path d=("M-463 284.6c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6-1.6.7-1.6 1.6.7 1.6 1.6 1.6zm0 .9c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5zm-7-.9c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6-1.6.7-1.6 1.6.7 1.6 1.6 1.6zm0 .9c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5zm-7-.9c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6-1.6.7-1.6 1.6.7 1.6 1.6 1.6zm0 .9c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z") 
+          .row
+            .col-md-3
+               = image_tag "allen.jpg", class: "admin-image big-admin-image"
+            .col-md-9
+              .desc-admin
+                | WRITTEN BY
+                br
+                a[href="#" target="_blank"]
+                    h3.admin-name.big-admin-name
+                      | Allen Aprilia Begista
+                br
+                button.follow-button
+                  | Follow
+      .col-md-2
+    hr
+    .row
+      .col-md-6
+        h6.color-green
+          | READ NEXT
+        br
+        h1
+          | Web Developer Jobs 2018 in Bandung
+        br
+          a[href="_blank"]
+            h6.admin-name
+              | Allen Aprilia Begista
+        br
+          | 18 Desember 2018
+      .col-md-6
+        = image_tag "dev-job.jpg", class: "big-article"
+    .row.medium-blog
+      .col-md-4
+        = image_tag "graphic-design.png", class: "big-article"
+        h5
+          | The Best 5 Graphic Design Software
+          br
+          br
+          a[href="_blank"]
+            h6.admin-name
+              | Allen Aprilia Begista
+        br
+          | 18 Desember 2018
+      .col-md-4
+        = image_tag "startup.jpg", class: "big-article"
+        h5
+          | Tips to Make Your Startup More Successful
+          a[href="_blank"]
+            h6.admin-name
+              | Allen Aprilia Begista
+        br
+          | 18 Desember 2018
+      .col-md-4
+        = image_tag "blog.jpg", class: "big-article"
+        h5
+          | These Are The Reasons Why You Should Hire Outsourcing Web
+          a[href="_blank"]
+            h6.admin-name
+              | Allen Aprilia Begista
+        br
+          | 18 Desember 2018 and Mobile Developers
+#footer
+  .row
+    .container
+      .col-md-4
+      .col-md-4
+      .col-md-4
+  hr
+  .row
+    .container
+      .col-md-6
+        = link_to image_tag('41studio-logo.jpg'), "https://www.41studio.com", class: "company-logo"
+      .col-md-6

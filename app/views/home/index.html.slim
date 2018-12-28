@@ -3,211 +3,165 @@
     .row
       .col-md-6
         h3.company-name
-          = image_tag "41studio-logo.jpg", class: "company-logo"
+          = link_to image_tag('41studio-logo.jpg'), root_path, class: "company-logo"
       .col-md-6
-.container      
+        span.genericon.genericon-search
+.container
   .content
-    .row#highlight
-      .col-md-6
-        h1#article-title
-          | How to succeed as a freelance developer
-          .author-wrapper
-            .author-profile
-              = image_tag "allen.jpg", class: "admin-image"
-            .author-desc
-              a[href="_blank"]
-                h6.admin-name
-                  | Allen Aprilia Begista
-                  button.follow-button
-                   | Follow
-        |18 December, 2018
-      .col-md-6
-        = image_tag "blog.jpg", id: "main-image"
-    .row#main-content
-      .col-md-2
-      .col-md-8
-        .content-desc
+    .row
+      .col-8
+        = link_to "blog_details"
+         h3
+          b
+            | How to succeed as a freelance developer
+        = image_tag "blog.jpg", class: "main-image"
         p
-          span.big-word> F
-          | reelancing will change your life. Working as a freelance programmer offers many benefits. While some of the positives come from the flexible nature of the work, still others relate to programming specifically.
-          br
-            | Here are major benefits when working freelance:
-          br
-            ul
-              li 
-                | A better work-life balance: You can have breakfast with your partner again!
-              li 
-                | Being your own boss: Being a freelance Web Developer means you can work all morning (or all night for that matter)…
-              li 
-                | Freedom to choose your working hours / clients / rate of pay: Say a polite ‘no thank you’ to that miserable client and a ‘no thank you’ to his criminally low budget too.
-              li 
-                | The chance to work on more interesting projects: No more monotony, each month bringing a variety of work, clients and opportunities.
-          br
-            ol
-              li.sub-title
-                |  Begin with Full-Time Work
-                br
-                p 
-                  | This can be a bit of a challenge if you have no prior experience and if you are primarily self-taught. Without credentials from a school and with no samples of work that have actually been paid for, you are competing with others who already have a “leg-up.” One of the things you can do is contribute to open-source projects that are out there, such as those on GitHub. You can build a technical portfolio from such projects and demonstrate you skills to potential employers.
-                p
-                  | Here are a number of important skills you can pick up once you are employed by a company:
-                br
-                  ul
-                    li
-                      | You will learn how the business side of a development company operates
-                    li
-                      | You will have time to enhance your skills
-                    li
-                      | You will learn how to work with clients of all “stripes.”
-                    li
-                      | You’ll have the chance to build up some savings which you will need when making the move to freelancing.
-              br
-              li.sub-title
-                | Start Building Your Portfolio
-                p
-                  | Begin a web-based portfolio as soon as you are hired, and put every project in there. These can be categorized with hyperlinks. At the same time that you are developing that portfolio, begin to work on your resume. Here you will provide the details of each of the projects in your portfolio, explaining the client requirements, the scope of the project and its ultimate success. Here you will have the link to the specific project.
-                br
-                p
-                  | In the end, you will most likely weed out projects and choose which ones you will actually discuss in your resume or CV, but right now, provide detailed descriptions and process explanations for them all. As a web developer, there may be other related projects that your employer will assign. Gladly assume them and, as you get each project done, add it to your portfolio and resume too. It’s good to show versatility. Again, the time to clean and polish both of these things will come later when you get ready to make your move. Right now they are working rough drafts.
-              br
-              li.sub-title
-                | Find Your Niche
-                p
-                  | Freelance developers who do really well have established themselves as the “go-to” people for very specific things – sort of like specialists in medicine or law. There are “Jack-of-all Trades” developers who will do a good job on most anything, but then there are the specialists who do a good job on most anything, but a really stunning job in a few key areas. To become a specialist, consider taking up a new language, or keep upgrading your skill set on a couple of those you already know. Take online courses and earn certificates; pick up skill in complementary areas such as UX or UI design. To be able to design and develop together makes you far more valuable as a freelancer – a one-stop shop so to speak for someone in need of a website from scratch.
-                br
-                p
-                 | As a niche expert with complementary skills sets, you will have a much easier time marketing your personal brand. If you are not certain what programming niche(s) you should choose, these are pretty hot right not:
-                br
-                ul
-                  li
-                    | Ruby on Rails: This is the preferred open source framework for startups all over the globe right now.
-                  li
-                    | Swift: This is Apple’s language for Cocoa and Cocoa Touch. It is specifically structured for iOS development – hot, hot, hot.
-                  li
-                    | Node.js: A platform for building fast and scalable applications. A lot of developing experts believe that it will become a big competitor to Ruby on Rails pretty quickly.
-              br
-              li.sub-title
-                | Network
-                p
-                  |You should begin to network from the day you land your feet into your job. There are so many developer communities out there, all of which have meet-ups, either on or offline. Begin with your colleagues at your job. Have conversations about things beyond the scope of your current project(s) – the more you learn about project variety and the business operations, the better.   
-                br
-                p
-                  | It goes without saying that you will also need to have a LinkedIn profile and join groups on that site. Participate in discussions in all niche and niche-related groups, so you’re your name becomes known. Show your expertise through those conversations. 
-                br
-                p
-                  | Get on Instagram and display carousels of projects in various stages and, of course, the final product. Start showing some of your projects on your Facebook Page. Follow other freelance developers and get involved in conversations with them. Check out development blogs and become a contributor.
-                br
-                p
-                  | All of these activities will spread your personal brand, and you can do this even before you strike out on your own. You will probably have a “conflict of interest” clause where you work, so you cannot take on side projects while you are employed, but having the contacts in advance will make getting gigs later much easier.
-              br
-              li.sub-title
-                | The Day Comes
-                p
-                  | You will have a lot to do when you launch. Set up your website with your portfolio (which should be well-organized if you have kept up with it). Go full-steam ahead on your marketing.
-                br
-                ul
-                  li
-                    | Let all of your contacts know that you are open for business. Ask for referrals.
-                  li
-                    | Ask colleagues you know for overflow work if they have any.
-                  li
-                    | Get your profile on as many freelance clearinghouses as possible.
-                br
-                p
-                 | Beyond your self-promotion which is almost a full-time job in the beginning, you will have all of the other aspects of running a business. If you have prepared yourself, you will be ready to assume budgeting, marketing, invoices, and tax requirements. There are great apps out there to do a lot of this for you, so consider outsourcing some of your paperwork. Just don’t ignore the day-to-day operations and then have to play catch-up after a large backlog has developed.
-                br
-                p
-                  | Becoming a freelancer is a big leap. It will take superior organizational skills and a willingness to put in far longer hours than you did working for someone else. If you have the passion for this; if you have planned in advance; if you can treat your freelancing as a business, then you have the recipe for success.
-              br
-              li.sub-title
-                | Use a Contract on every project
-                br
-                p
-                  | If you’re just beginning to learn how to freelance, let me help you avoid making one of the most common mistakes I see.
-                br
-                p
-                  | Use a contract for EVERY client project. But, don’t get bogged down in finding the perfect contract.
-                br
-                p
-                  | Starting off with a template is okay, as long as you remember to keep making improvements along the way.
-                br
-                p
-                  | Too many freelancers get caught up in the details of contracts, and it’s ultimately wasting a lot of time that should be spent making money.
-                br
-                p
-                  | All you need for the time being is a general agreement that covers some basic, yet important terms that both you and the client need to agree upon.
-                br
-                p
-                  | In its simplest form, your contract terms should cover:
-                br
-                  ul
-                    li
-                      | The work that you produce is original and not plagiarized.
-                    li
-                      | The client’s proprietary information stays confidential.
-                    li
-                      | Your payments terms. (How much you’ll get paid and when during the process.)
-                    li
-                      | That once the client accepts the completed work, they accept full responsibility for any further processes in which the work is used (e.g. printing, putting the logo to use, etc.)
-                    li
-                      | You and the client have the right to terminate the services, and what that entails for you both.
-                    br
-                  p
-                    | Having some basic terms in place for every project will help protect you, but more importantly, will help inform the client of how you work.
-              br
-              li.sub-title
-                |  Be transparent with your clients
-                br
-                p
-                  | As a freelancer, your business is just you running it inside out. That’s something you must be proud of, so don’t hide behind a facade:
-                br
-                p
-                  | Be the name and face of your business, because your business is you.
-                br
-                p
-                  | From a client’s perspective, if I were to hire you to provide a service, I would want to know who I’m giving my money to. So be sure to inject who you are into your brand. You can shape that however you’d like, but the key is to be personable. Also, when a client is interested in working with you, be transparent in conversing with them.
-                br
-                p
-                  | If you only take on freelance opportunities part time, let them know. Otherwise, you could run into a situation where expectations are misaligned and conflicts pop up as a result. If they’re going to hire you, explain to them how your process works.
-                br
-                p
-                  | Show your interest in them and their business, then break down what they can expect by working with you step-by-step.
-                br
-                p
-                  | Being transparent isn’t a weakness, it helps build trust and confidence, and can be what seals the deal in a proposed project.
-              br
-              li.sub-title
-                | Communication & PR
-                br
-                p
-                  | Being a freelance developer means marketing yourself as a professional to sell your services. You must be skilled in public relations and a good salesman if you want to succeed as a mobile app freelance programmer. You are no longer selling a product or service from a particular company but selling your own services. This is why communication and personal branding are two of the most essential components towards building confidence in potential customers and getting app projects.
-          / .row
-          /   .col-md-6
-          /     | claps
-          /   .col-md-6
-          /     | sosmed logo
+          | Freelancing will change your life. Working as a freelance programmer offers many benefits. While some of the positives come from the flexible nature of the work, still others relate to programming specifically. Here are major benefits when working…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | The best CMS platforms in 2018
+        = image_tag "best-cms.jpg", class: "main-image" 
+        p
+          | Creating a website is getting easier in 2018. You are presented with the best CMS platforms, most of which allow you to create any website. It’s just that, choosing a Content Management System (CMS) seems a bit challenging…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | The Best 5 Graphic Design Software
+        = image_tag "graphic-design.png", class: "main-image"
+        p
+          | Design that’s to be experienced in an instant is the easiest to recognize. Designers arrange type, form, and image on posters, advertisements, packages, and other printed matter, as well as information visualizations and graphics for newspapers and magazines….
+          = link_to
+           | Read More
+        hr
+        = link_to
+          h3
+            b
+              | Tips to make your startup more successful
+        = image_tag "startup.jpg", class: "main-image"
+        p
+          | It will come as no surprise to learn that the majority of startups fail. What is success? Success can be defined by many factors but, from a strictly business perspective, it’s all about the money. Making profit is…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | 15 Best Apps for Android
+        = image_tag "best-app.jpg", class: "main-image"
+        p
+          | The best  apps for Android keep your life running smoothly and efficiently. They allow you to get information you need and communicate with others without feeling limited by a small screen. Whether you need to get in touch…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | What’s the Difference Between SEO and SEM?
+        = image_tag "seo-sem.jpg", class: "main-image"
+        p
+          | What is SEO? SEO (Search Engine Optimization) is the marketing process to increase visibility within the organic search results, for the specific purpose of obtaining more traffic for a website. SEO is the process of affecting the online…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | Mobile Development Languages
+        = image_tag "mobile-dev.jpg", class: "main-image"
+        p
+          | If you want to code a mobile app, you need to know a programming language. But it can be hard to choose the best language (or languages) for a project. There are a lot of options out there,…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | How to build a Progressive Web App
+        = image_tag "progressive-web.jpg", class: "main-image"
+        p
+          | Progressive Web Apps (PWAs) are web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications….
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | Best 7 CSS and JavaScript Tools for Code Optimization
+        = image_tag "css-tools.jpg", class: "main-image"
+        p
+          | In this Article we will check out 7 powerful tools you can use to optimize your CSS and JavaScript files in order to improve the quality of your code. 1. CSSLint CSS Lint is a tool to help…
+          = link_to
+            | Read More
+        hr
+        = link_to
+          h3
+            b
+              | Why does Bitcoin has value
+        = image_tag "bitcoin.jpg", class: "main-image"
+        p
+          | Bitcoin is a new currency that was created in 2009 by an unknown person using the alias Satoshi Nakamoto. Transactions are made with no middle men – meaning, no banks! Bitcoin can be used to book hotels on…
+          = link_to
+            | Read More
+        hr
+      .col-4
+        .right-side  
+          h3
+            b
+              | You May Also Like
+          hr
           .row
-            .col-md-3
-               = image_tag "allen.jpg", class: "admin-image big-admin-image"
-            .col-md-9
-              | WRITTEN BY
+            .col-2
+              h3
+                | 01
+            .col-10
+              h6
+                = link_to
+                  | The best CMS platforms in 2018
+          .row
+            .col-2
+              h3
+                | 02
+            .col-10
+              h6
+                = link_to
+                  | The Best 5 Graphic Design Software
+          .row
+            .col-2
+              h3
+                | 03
+            .col-10
+              h6
+                = link_to
+                  | The best CMS platforms in 2018
+          .row
+            .col-2
+              h3
+                | 04
+            .col-10
+              h6
+                = link_to
+                  | The best CMS platforms in 2018
+          hr
+            h6.footer-info
+              | COPYRIGHT © 2018 
+              = link_to
+                | 41STUDIO.
               br
-              a[href="_blank"]
-                  h3.admin-name
-                    | Allen Aprilia Begista
+              | ALL RIGHTS RESERVED. 
               br
-              button
-                | Follow
-      .col-md-2
-    hr
-    .row
-      .col-md-6
-      .col-md-6
-    .row
-      .col-md-4
-      .col-md-4
-      .col-md-4
-    .row#footer
-      .col-md-4
-      .col-md-4
-      .col-md-4
+              | THEME: VT BLOGGING BY 
+              = link_to
+                | VOLTHEMES. 
+              | POWERED BY 
+              = link_to
+                | WORDPRESS.
+          .back-top
+            = link_to "navbar"
+              span.genericon.genericon-collapse

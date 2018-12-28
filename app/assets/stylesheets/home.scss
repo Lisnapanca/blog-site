@@ -25,7 +25,7 @@
   font-style: normal;
 }
 p,ul{
-  font-size: 21px;
+  font-size: 15px;
   font-weight:normal;
 }
 .row{
@@ -45,77 +45,26 @@ p,ul{
 .company-name{
   font-weight: bold;
 }
-.company-logo{
+.company-logo img{
   width: 70px;
   height: 70px;
-  margin-top:10px;
+  margin-top: 7px;
 }
 .content{
-  padding-top: 70px;
+  padding-top: 150px;
 }
-#highlight{
-  margin-bottom: 125px;
-}
-#article-title{
-  font-weight:bold;
-  position: relative;
-  top: 30%;
-  font-size: 50px;
-  font-family: "Times New Roman";
-}
-.admin-image{
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 1px 1px 1px 3px #f3f3f3;
-  position: relative;
-  top: 40%;
-}
-.admin-name{
-  margin-top: 45px;
-  color: black;
-}
-.admin-name a{
-  text-decoration: none;
-}
-.follow-button{
-  background-color:transparent;
-  outline: 0!important;
-  border-radius: 7px;
-  margin-left: 10px;
-}
-#main-image{
+.main-image{
   width: 100%;
-  position: relative;
-  top: 20%;
 }
-#main-content {
-  font-size: 21px;
-  font-family: "Times New Roman";
+.footer-info{
+  font-size: 15px;
 }
-.big-admin-image{
-  width: 150px;
-  height: 150px;
-  top: 0;
+.back-top{
+  display: none;
 }
-.content-desc{
-  max-width: 800px;
-  margin: auto;
+.right-side{
+  position: fixed;
 }
-.author-wrapper{
-  display: flex;
-  .author-profile{
-    margin-right: 15px;
-  }
-}
-.sub-title{
-  font-weight: bold;
-}
-.big-word{
-  font-size: 66px;
-  height: 66px;
-  padding-right: 7px;
-  margin-top: -15px;
-  float: left;
+.right-side .col-10{
+  margin-top: 8px;
 }
