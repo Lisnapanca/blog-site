@@ -24,6 +24,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: lucida-sans-unicode;
+    src: url(../assets/fonts/LucidaSansUnicode.ttf);
+}
 p,ul{
   font-size: 15px;
   font-weight:normal;
@@ -31,7 +35,7 @@ p,ul{
 .row{
   width: 100%;
 }
-.navbar,.navbar-category{
+.navbar{
   width: 100%;
   margin-left: 0px;
   margin-right: auto;
@@ -41,11 +45,6 @@ p,ul{
   border-radius: 0;
   height: 70px;
   box-shadow: 0px 1px 1px 1px #f3f3f3;
-}
-.navbar-category{
-  height: 35px;
-  margin-top:70px;
-  padding-top: 6px;
 }
 .company-name{
   font-weight: bold;
@@ -72,4 +71,57 @@ p,ul{
 }
 .right-side .col-10{
   margin-top: 8px;
+}
+#lifestyle-text{
+  margin-left:-35px;
+}
+#management-text{
+  margin-left:0px;
+}
+#mobile-text{
+  margin-left:50px;
+}
+#mobile-text a{
+  margin-left:-24px;
+}
+#software-text{
+  margin-left: -25px;
+}
+#software-text a {
+  margin-left:-15px;
+}
+#design-text a{
+  margin-left: -21px;
+}
+#uncategories-text{
+  margin-left: -45px;
+}
+.categories{
+  padding-top: 30px;
+}
+#design-text{
+  margin-left:15px;
+}
+.navbar a{
+  color: #5c656a;
+  font-size: 13px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color:black;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+.number-favorite-blog{
+  color: #e1e6ea;
+  font-size: 34px;
+}
+.favorite-blog .col-11{
+  padding-left: 30px;
+  padding-top: 7px;
 }

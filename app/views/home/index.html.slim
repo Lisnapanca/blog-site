@@ -1,211 +1,215 @@
-.navbar
+.wrapper
+  .navbar
+    .container-fluid
+      .row
+        .col-md-1
+          h3.company-name
+            = link_to image_tag('41studio-logo.jpg'), root_path, class: "company-logo"
+        .col-md-11
+          .row.categories
+            .col-md-2
+              = link_to "DIGITAL MARKETING"
+            .col-md-1#lifestyle-text
+              = link_to "LIFESTYLE"
+            .col-md-1#management-text
+              = link_to "MANAGEMENT"
+            .col-md-2#mobile-text
+              = link_to "MOBILE DEVELOPMENT"
+            .col-md-2#software-text
+              = link_to "SOFTWARE DEVELOPMENT"
+            .col-md-1#design-text
+              = link_to "WEB DESIGN"
+            .col-md-2
+              = link_to "WEB DEVELOPMENT"
+            .col-md-1#uncategories-text
+              = link_to "UNCATEGORIZED"
   .container
-    .row
-      .col-md-6
-        h3.company-name
-          = link_to image_tag('41studio-logo.jpg'), root_path, class: "company-logo"
-      .col-md-6
-        span.genericon.genericon-search
-.navbar-category
-  .container-fluid
-    .row
-      .col-md-2.text-center
-        = link_to "Digital Marketing"
-      .col-md-1.text-center
-        = link_to "Lifestyle"
-      .col-md-2.text-center
-        = link_to "Management"
-      .col-md-2.text-center
-        = link_to "Mobile Development"
-      .col-md-2.text-center
-        = link_to "Software Development"
-      .col-md-2.text-center
-        = link_to "Web Design"
-      .col-md-1.text-center
-        = link_to "More"
-.container
-  .content
-    .row
-      .col-8
-        = link_to "blog_details"
-         h3
-          b
-            | How to succeed as a freelance developer
-        = image_tag "blog.jpg", class: "main-image"
-        p
-          | Freelancing will change your life. Working as a freelance programmer offers many benefits. While some of the positives come from the flexible nature of the work, still others relate to programming specifically. Here are major benefits when working…
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
+    .content
+      .row
+        .col-8.left-content
+          = link_to "blog_details"
+           h3
             b
-              | The best CMS platforms in 2018
-        = image_tag "best-cms.jpg", class: "main-image" 
-        p
-          | Creating a website is getting easier in 2018. You are presented with the best CMS platforms, most of which allow you to create any website. It’s just that, choosing a Content Management System (CMS) seems a bit challenging…
+              | How To Succeed As A Freelance Developer
+          = image_tag "blog.jpg", class: "main-image"
+          p
+            | Freelancing will change your life. Working as a freelance programmer offers many benefits. While some of the positives come from the flexible nature of the work, still others relate to programming specifically. Here are major benefits when working…
+            = link_to
+              | Read More
+          hr
           = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | The Best 5 Graphic Design Software
-        = image_tag "graphic-design.png", class: "main-image"
-        p
-          | Design that’s to be experienced in an instant is the easiest to recognize. Designers arrange type, form, and image on posters, advertisements, packages, and other printed matter, as well as information visualizations and graphics for newspapers and magazines….
-          = link_to
-           | Read More
-        hr
-        = link_to
-          h3
-            b
-              | Tips to make your startup more successful
-        = image_tag "startup.jpg", class: "main-image"
-        p
-          | It will come as no surprise to learn that the majority of startups fail. What is success? Success can be defined by many factors but, from a strictly business perspective, it’s all about the money. Making profit is…
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | 15 Best Apps for Android
-        = image_tag "best-app.jpg", class: "main-image"
-        p
-          | The best  apps for Android keep your life running smoothly and efficiently. They allow you to get information you need and communicate with others without feeling limited by a small screen. Whether you need to get in touch…
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | What’s the Difference Between SEO and SEM?
-        = image_tag "seo-sem.jpg", class: "main-image"
-        p
-          | What is SEO? SEO (Search Engine Optimization) is the marketing process to increase visibility within the organic search results, for the specific purpose of obtaining more traffic for a website. SEO is the process of affecting the online…
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | Mobile Development Languages
-        = image_tag "mobile-dev.jpg", class: "main-image"
-        p
-          | If you want to code a mobile app, you need to know a programming language. But it can be hard to choose the best language (or languages) for a project. There are a lot of options out there,…
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | How to build a Progressive Web App
-        = image_tag "progressive-web.jpg", class: "main-image"
-        p
-          | Progressive Web Apps (PWAs) are web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications….
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | Best 7 CSS and JavaScript Tools for Code Optimization
-        = image_tag "css-tools.jpg", class: "main-image"
-        p
-          | In this Article we will check out 7 powerful tools you can use to optimize your CSS and JavaScript files in order to improve the quality of your code. 1. CSSLint CSS Lint is a tool to help…
-          = link_to
-            | Read More
-        hr
-        = link_to
-          h3
-            b
-              | Why does Bitcoin has value
-        = image_tag "bitcoin.jpg", class: "main-image"
-        p
-          | Bitcoin is a new currency that was created in 2009 by an unknown person using the alias Satoshi Nakamoto. Transactions are made with no middle men – meaning, no banks! Bitcoin can be used to book hotels on…
-          = link_to
-            | Read More
-        hr
-      .col-4
-        .right-side
-          / h3
-          /   b
-          /     | Tags
-          / hr
-          /   = link_to
-          /     | Digital Marketing
-          / br
-          /   = link_to
-          /     | Lifestyle
-          / br
-          /   = link_to
-          /     | Management
-          / br
-          /   = link_to
-          /     | Mobile Development
-          / br
-          /   = link_to
-          /     | Software Development
-          / br
-          /   = link_to
-          /     | Uncategorized
-          / br
-          /   = link_to
-          /     | Web design
-          / br
-          /   = link_to
-          /     | Web Development
-          h3
+            h3
               b
-              | You May Also Like
+                | The Best CMS Platforms In 2018
+          = image_tag "best-cms.jpg", class: "main-image" 
+          p
+            | Creating a website is getting easier in 2018. You are presented with the best CMS platforms, most of which allow you to create any website. It’s just that, choosing a Content Management System (CMS) seems a bit challenging…
+            = link_to
+              | Read More
           hr
-          .row
-            .col-2
-              h3
-                | 01
-            .col-10
-              h6
-                = link_to
-                  | The best CMS platforms in 2018
-          .row
-            .col-2
-              h3
-                | 02
-            .col-10
-              h6
-                = link_to
-                  | The Best 5 Graphic Design Software
-          .row
-            .col-2
-              h3
-                | 03
-            .col-10
-              h6
-                = link_to
-                  | The best CMS platforms in 2018
-          .row
-            .col-2
-              h3
-                | 04
-            .col-10
-              h6
-                = link_to
-                  | The best CMS platforms in 2018
+          = link_to
+            h3
+              b
+                | The Best 5 Graphic Design Software
+          = image_tag "graphic-design.png", class: "main-image"
+          p
+            | Design that’s to be experienced in an instant is the easiest to recognize. Designers arrange type, form, and image on posters, advertisements, packages, and other printed matter, as well as information visualizations and graphics for newspapers and magazines….
+            = link_to
+             | Read More
           hr
-            h6.footer-info
-              | COPYRIGHT © 2018 
-              = link_to
-                | 41STUDIO.
-              br
-              | ALL RIGHTS RESERVED. 
-              br
-              | THEME: VT BLOGGING BY 
-              = link_to
-                | VOLTHEMES. 
-              | POWERED BY 
-              = link_to
-                | WORDPRESS.
-          .back-top
-            = link_to "navbar"
-              span.genericon.genericon-collapse
+          = link_to
+            h3
+              b
+                | Tips To Make Your Startup More Successful
+          = image_tag "startup.jpg", class: "main-image"
+          p
+            | It will come as no surprise to learn that the majority of startups fail. What is success? Success can be defined by many factors but, from a strictly business perspective, it’s all about the money. Making profit is…
+            = link_to
+              | Read More
+          hr
+          = link_to
+            h3
+              b
+                | 15 Best Apps For Android
+          = image_tag "best-app.jpg", class: "main-image"
+          p
+            | The best  apps for Android keep your life running smoothly and efficiently. They allow you to get information you need and communicate with others without feeling limited by a small screen. Whether you need to get in touch…
+            = link_to
+              | Read More
+          hr
+          = link_to
+            h3
+              b
+                | What’s The Difference Between SEO And SEM?
+          = image_tag "seo-sem.jpg", class: "main-image"
+          p
+            | What is SEO? SEO (Search Engine Optimization) is the marketing process to increase visibility within the organic search results, for the specific purpose of obtaining more traffic for a website. SEO is the process of affecting the online…
+            = link_to
+              | Read More
+          hr
+          = link_to
+            h3
+              b
+                | Mobile Development Languages
+          = image_tag "mobile-dev.jpg", class: "main-image"
+          p
+            | If you want to code a mobile app, you need to know a programming language. But it can be hard to choose the best language (or languages) for a project. There are a lot of options out there,…
+            = link_to
+              | Read More
+          hr
+          = link_to
+            h3
+              b
+                | How To Build A Progressive Web App
+          = image_tag "progressive-web.jpg", class: "main-image"
+          p
+            | Progressive Web Apps (PWAs) are web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications….
+            = link_to
+              | Read More
+          hr
+          = link_to
+            h3
+              b
+                | Best 7 CSS And JavaScript Tools For Code Optimization
+          = image_tag "css-tools.jpg", class: "main-image"
+          p
+            | In this Article we will check out 7 powerful tools you can use to optimize your CSS and JavaScript files in order to improve the quality of your code. 1. CSSLint CSS Lint is a tool to help…
+            = link_to
+              | Read More
+          hr
+          = link_to
+            h3
+              b
+                | Why Does Bitcoin Has Value
+          = image_tag "bitcoin.jpg", class: "main-image"
+          p
+            | Bitcoin is a new currency that was created in 2009 by an unknown person using the alias Satoshi Nakamoto. Transactions are made with no middle men – meaning, no banks! Bitcoin can be used to book hotels on…
+            = link_to
+              | Read More
+          hr
+        .col-4
+          .right-side
+            / h3
+            /   b
+            /     | Tags
+            / hr
+            /   = link_to
+            /     | Digital Marketing
+            / br
+            /   = link_to
+            /     | Lifestyle
+            / br
+            /   = link_to
+            /     | Management
+            / br
+            /   = link_to
+            /     | Mobile Development
+            / br
+            /   = link_to
+            /     | Software Development
+            / br
+            /   = link_to
+            /     | Uncategorized
+            / br
+            /   = link_to
+            /     | Web design
+            / br
+            /   = link_to
+            /     | Web Development
+            h4
+              b
+                | You May Also Like
+            hr
+            .row.favorite-blog
+              .col-1
+                h3.number-favorite-blog
+                  | 01
+              .col-11
+                h6
+                  b
+                    = link_to
+                      | The best CMS platforms in 2018
+            .row.favorite-blog
+              .col-1
+                h3.number-favorite-blog
+                  | 02
+              .col-11
+                h6
+                  b
+                    = link_to
+                      | The Best 5 Graphic Design Software
+            .row.favorite-blog
+              .col-1
+                h3.number-favorite-blog
+                  | 03
+              .col-11
+                h6
+                  b
+                    = link_to
+                      | The best CMS platforms in 2018
+            .row.favorite-blog
+              .col-1
+                h3.number-favorite-blog
+                  | 04
+              .col-11
+                h6
+                  b
+                    = link_to
+                      | The best CMS platforms in 2018
+            hr
+              h6.footer-info
+                | COPYRIGHT © 2018 
+                = link_to
+                  | 41STUDIO.
+                br
+                | ALL RIGHTS RESERVED. 
+                br
+                | THEME: VT BLOGGING BY 
+                = link_to
+                  | VOLTHEMES. 
+                | POWERED BY 
+                = link_to
+                  | WORDPRESS.
+            .back-top
+              = link_to "navbar"
+                span.genericon.genericon-collapse
